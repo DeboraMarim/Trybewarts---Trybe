@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybewarts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+</head>
+
+<body class="style">
+    <header class="header">
+        <img src="trybewarts-header-logo.svg" alt="" class="trybewarts-header-logo">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form action="" class="trybewarts-login">
+            <input type="email" name="email" id="email" autocomplete="off" class="input-email" placeholder="Email">
+            <input type="password" name="password" id="password" autocomplete="off" class="input-password"
+               placeholder="Senha">
+            <button type="submit" id="input-login">Entrar</button>
+        </form>
+    </header>
+    <section class="tela">
+        <main>
+            <form action="" id="evaluation-form">
+                <h1 class="titulo">Formulário de Avaliação</h1>
+                <section class="section-name-lastname">
+                    <div class="div">
+                        <label for="input-name"></label>
+                        <input type="text" name="name" class="input" id="input-name" autocomplete="off"
+                            placeholder="Nome">
+                    </div>
+                    <div class="div">
+                        <label for="input-lastname"></label>
+                        <input type="text" name="lastname" class="input" id="input-lastname" autocomplete="off"
+                            placeholder="Sobrenome">
+                    </div>
+                </section>
+                <section class="casa">
+                    <div class="div">
+                        <label for="input-email"></label>
+                        <input type="email" name="email" class="input" id="input-email" autocomplete="off"
+                            placeholder="Email">
+                    </div>
+                    <div class="div-house div">
+                        <label class="label-house" for="house">Casa:</label>
+                        <div class="select">
+                            <select name="house" id="house">
+                                <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                                <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                                <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                            </select>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+                <section class="primeira">
+                    <section class="family">
+                        <label for="" id="label-family">Qual sua família?</label><br>
+                          <label for="family-frontend"><input type="radio" class="family-option" id="family-frontend" name="family"
+                                value="Frontend">Frontend</label><br>
+                          <label for="family-backend"><input type="radio" class="family-option" id="family-backend" name="family"
+                                value="Backend">Backend</label><br>
+                          <label for="family-fullStack"><input type="radio" class="family-option" id="family-fullStack" name="family"
+                                value="FullStack">FullStack</label><br>
+                    </section>
+                    <section class="conteudos">
+                        <label for="" id="label-content">Qual conteúdo você está com mais vontade de
+                            aprender?</label><br>
+                        <div class="check">
+                            <section class="conteudos-ordenados">
+                                <label for="HoFs"><input type="checkbox" id="HoFs" name="HoFs" class="subject"
+                                        value="HoFs">HoFs</label>
+                                <label for="Jest"><input type="checkbox" id="Jest" name="Jest" class="subject"
+                                        value="Jest">Jest </label>
+                                <label for="Promises"><input type="checkbox" id="Promises" name="Promises"
+                                        class="subject" value="Promises">Promises</label>
+                            </section>
+                            <section class="conteudos-ordenados">
+                                <label for="React"><input type="checkbox" id="React" name="React" class="subject"
+                                        value="React">React</label>
+                                <label for="SQL"><input type="checkbox" id="SQL" name="SQL" class="subject"
+                                        value="SQL">SQL</label>
+                                <label for="Python"><input type="checkbox" id="Python" name="Python" class="subject"
+                                        value="Python">Python</label>
+                            </section>
+                        </div>
+                    </section>
+                </section>
+                <hr>
+                <section class="divide">
+                    <div><label for="" id="label-rate">Como você avalia a Trybewarts?</label></div>
+                    <div class="avaliacao">
+                        <label for="value1"><input name="rate" type="radio" class="avaliacao-option" value="1">1</label><br>
+                        <label for="value2"><input name="rate" type="radio" class="avaliacao-option" value="2">2</label><br>
+                        <label for="value3"><input name="rate" type="radio" class="avaliacao-option" value="3">3</label><br>
+                        <label for="value4"><input name="rate" type="radio" class="avaliacao-option" value="4">4</label><br>
+                        <label for="value5"><input name="rate" type="radio" class="avaliacao-option" value="5">5</label><br>
+                        <label for="value6"><input name="rate" type="radio" class="avaliacao-option" value="6">6</label><br>
+                        <label for="value7"><input name="rate" type="radio" class="avaliacao-option" value="7">7</label><br>
+                        <label for="value8"><input name="rate" type="radio" class="avaliacao-option" value="8">8</label><br>
+                        <label for="value9"><input name="rate" type="radio" class="avaliacao-option" value="9">9</label><br>
+                        <label for="value10"><input name="rate" type="radio" class="avaliacao-option" value="10">10</label><br>
+                    </div>
+                </section>
+                <section class="style-text-area">
+                    <label for="textarea" class="textarea" id="">Deixe seu comentário:<textarea name="description"
+                            id="textarea" class="textarea is-link" cols="25" rows="5"
+                            maxlength="500"></textarea></label><br>
+                    <span id="counter">500</span>
+                </section>
+                <section class="style-agreement">
+                    <label for="agreement" id="label-infos" class="dados">Você concorda com o uso das informações
+                        acima?</label>
+                    <input type="checkbox" name="" id="agreement">
+                </section>
+                <section class="style-btn">
+                    <br><button type="submit" class="btn button is-link is-fullwidth" id="submit-btn">Enviar</button>
+                </section>
+            </form>
+            <div id="form-data"> <h1>Bem Vindo à Trybewarts!!</h1><br><br></div>
+            <img src="trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+    </section>
+    <footer>
+        <h3>Direitos reservados à Trybewarts© Desenvolvido por Debora Marim </h2>
+    </footer>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
