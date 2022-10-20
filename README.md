@@ -1,6 +1,9 @@
 # Trybewarts 🪄⚡
 Projeto proposto pela escola de Desenvolvimento Web - Trybe.
 
+![trybewarts](https://user-images.githubusercontent.com/54490709/196984590-d64d90f0-332d-411d-ae04-ff1c1e500add.png)
+
+
 <h1>A proposta</h1>
 Construir um formulário para admissão na Trybewarts, uma escola de tecnologia inspirada em Hogwarts.
 No formulário a pessoa usuária deve escolher qual familia deseja fazer parte: Frontend, Backend ou FullStack. Deve poder escolher também a qual casa deseja pertencer, sendo as possíveis escolhas: Gitnória, Reactpuff, Corvinode e Pytherina.
