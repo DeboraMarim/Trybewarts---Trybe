@@ -12,6 +12,18 @@
   color: white;
   
 }
+input::placeholder {
+  color: rgb(231, 231, 231);
+}
+
+#email::placeholder {
+  color: rgb(2, 1, 1);
+}
+
+#password::placeholder {
+  color: rgb(2, 1, 1);
+}
+
 
 footer {
   position: fixed;
